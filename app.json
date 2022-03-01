@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "starter-kit",
-    "slug": "starter-kit",
+    "name": "Blog App",
+    "slug": "blog-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -27,8 +27,10 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "package:": "com.blog.thinkerbell"
+  },
     "web": {
       "favicon": "./assets/images/favicon.png"
     }
   }
-}
+

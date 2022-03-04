@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Alert, Button, Text, TouchableOpacity, TextInput, View, StyleSheet, ImageBackground } from 'react-native';
 
+
 export default class App extends Component {
 
     state = {
@@ -36,7 +37,6 @@ export default class App extends Component {
           placeholderTextColor = 'white'
           style={styles.input}
         />
-        
      
         <TouchableOpacity
           style={styles.button}
@@ -47,7 +47,9 @@ export default class App extends Component {
         
        <Text style={styles.titleText}>Forgot Password?</Text>
       </View>
-      
+    
+    
+
     );
   }
 }
@@ -57,18 +59,18 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'teal',
+    backgroundColor: '#455954'
     
   },
   titleText:{
     fontFamily: 'SpaceMono-Regular.ttf',
-    fontSize: 16,
+    fontSize: 20,
     alignItems: 'center',
     justifyContent: 'center',
   },
   button: {
     alignItems: 'center',
-    backgroundColor: 'teal',
+    backgroundColor: '#7aa39a',
     width: 120,
     height: 45,
     padding: 10,
@@ -95,4 +97,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
+
 });
+

@@ -25,12 +25,11 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.blog.thinkerbell"
     },
-    "package:": "com.blog.thinkerbell"
   },
-    "web": {
-      "favicon": "./assets/images/favicon.png"
-    }
+  "web": {
+    "favicon": "./assets/images/favicon.png"
   }
-
+}

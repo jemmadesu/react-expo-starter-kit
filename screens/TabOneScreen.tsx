@@ -26,7 +26,7 @@ export default class App extends Component {
           keyboardType = 'email-address'
           onChangeText={(email) => this.setState({ email })}
           placeholder='Enter Username'
-          placeholderTextColor = 'black'
+          placeholderTextColor = 'grey'
           style={styles.input}
         />
         <TextInput
